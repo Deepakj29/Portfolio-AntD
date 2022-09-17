@@ -1,0 +1,53 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(66, 60, 60);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+    
+}
+.hero>h1{
+    color:orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+}
+.butt{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 30px;
+    
+    font-weight: bold;
+}
+span{
+    font-size: inherit;
+    color:darkorange;
+
+}
+.ityped-cursor{
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+@keyframes blink{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .butt{
+        flex-direction: column;
+        column-gap: 10px;
+    }
+}

@@ -1,0 +1,65 @@
+.project{
+
+    background-color:rgb(66, 60, 60);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+  
+}
+
+.project>h1{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.parr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    
+    
+}
+.prow1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+   
+}
+.prow2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    
+}
+
+
+
+
+
+@media only screen and (max-width:900px) {
+  
+    .parr{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+      
+    }
+    .prow1{
+        display: flex;
+        flex-direction: column;
+        
+        column-gap: 10px;
+    }
+    .prow2{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+       ;
+    }
+}

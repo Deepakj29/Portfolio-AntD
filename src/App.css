@@ -1,0 +1,28 @@
+@import 'antd/dist/antd.css';
+@import './component/homecomp/homecomp.css';
+@import './component/aboutcomp/aboutcomp.css';
+@import './component/skillsComp/skillComp.css';
+@import './component/projectcomp/projectcomp.css';
+@import './component/contactcomp/contactcomp.css';
+
+
+ .logo {
+  height: 32px;
+  margin: 16px;
+  background: #722ed1;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  
+}
+
+.ant-layout-sider{
+  background-color:rgb(255, 42, 0);
+  opacity: .9;
+  
+}
+.lay{
+  margin-top: 150px;
+}
+
